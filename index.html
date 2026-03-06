@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Full-stack developer portfolio — intelligent web applications and data-driven business solutions." />
+  <title>Mohamed Mostafa — Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Mohamed Mostafa — home">
+        <span class="logo-dot" aria-hidden="true"></span>
+        Mohamed Mostafa
+      </a>
+      <button class="nav-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="academic.html">Background</a></li>
+        <li><a href="contact.html" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <main id="main-content">
+  <section class="hero" aria-label="Hero introduction">
+    <div class="container">
+      <div class="hero-badge" aria-label="Availability status">
+        <span aria-hidden="true">●</span> Available for new projects
+      </div>
+      <h1>
+        Elevate your products<br />
+        to the <span class="accent-word">next level</span>
+      </h1>
+      <p class="hero-subtext">
+        Welcome! I specialize in building intelligent web applications and data-driven business solutions.
+        Whether you need a Python backend, or an intuitive mobile booking app, I deliver high-quality,
+        scalable results.
+      </p>
+      <div class="hero-cta">
+        <a href="projects.html" class="btn btn-primary">View My Work</a>
+        <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <div class="stats-strip" aria-label="Key statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" aria-label="20 plus projects delivered">20+</span>
+          <span class="stat-label">Projects Delivered</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" aria-label="15 plus satisfied clients">15+</span>
+          <span class="stat-label">Satisfied Clients</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" aria-label="5 plus years of experience">5+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" aria-label="100 percent on-time delivery">100%</span>
+          <span class="stat-label">On-Time Delivery</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FEATURED PROJECTS ===== -->
+  <section id="projects" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="divider" aria-hidden="true"></div>
+      <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+      <p class="section-subtitle">A selection of recent work — intelligent systems built for scale.</p>
+
+      <div class="projects-grid">
+
+        <!-- Card 1 -->
+        <article class="project-card reveal" aria-label="AI Analytics Dashboard project">
+          <div class="project-img-placeholder project-img-1" role="img" aria-label="Analytics dashboard screenshot placeholder">
+            📊
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">AI-Powered Analytics Dashboard</h3>
+            <p class="project-card-desc">Real-time business intelligence platform with ML-driven insights, interactive charts, and automated reporting.</p>
+            <ul class="tech-stack" aria-label="Technologies used">
+              <li class="tech-tag">Python</li>
+              <li class="tech-tag">FastAPI</li>
+              <li class="tech-tag">React</li>
+              <li class="tech-tag">PostgreSQL</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card reveal" aria-label="Mobile Booking App project">
+          <div class="project-img-placeholder project-img-2" role="img" aria-label="Mobile booking app screenshot placeholder">
+            📱
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Mobile Booking Application</h3>
+            <p class="project-card-desc">Intuitive cross-platform booking app with real-time availability, push notifications, and seamless payments.</p>
+            <ul class="tech-stack" aria-label="Technologies used">
+              <li class="tech-tag">Flutter</li>
+              <li class="tech-tag">Node.js</li>
+              <li class="tech-tag">PostgreSQL</li>
+              <li class="tech-tag">Stripe</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card reveal" aria-label="E-Commerce Platform project">
+          <div class="project-img-placeholder project-img-3" role="img" aria-label="E-commerce platform screenshot placeholder">
+            🛒
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Scalable E-Commerce Platform</h3>
+            <p class="project-card-desc">Enterprise-grade multi-vendor marketplace handling high traffic with recommendation engine and advanced search.</p>
+            <ul class="tech-stack" aria-label="Technologies used">
+              <li class="tech-tag">Django</li>
+              <li class="tech-tag">Vue.js</li>
+              <li class="tech-tag">Redis</li>
+              <li class="tech-tag">Elasticsearch</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="project-card reveal" aria-label="Data Pipeline project">
+          <div class="project-img-placeholder project-img-4" role="img" aria-label="Data pipeline screenshot placeholder">
+            🔄
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Data Pipeline Automation</h3>
+            <p class="project-card-desc">High-throughput ETL pipeline processing millions of records daily with real-time monitoring and alerting.</p>
+            <ul class="tech-stack" aria-label="Technologies used">
+              <li class="tech-tag">Python</li>
+              <li class="tech-tag">Apache Kafka</li>
+              <li class="tech-tag">AWS</li>
+              <li class="tech-tag">dbt</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="project-card reveal" aria-label="Smart Inventory System project">
+          <div class="project-img-placeholder project-img-5" role="img" aria-label="Inventory system screenshot placeholder">
+            🏭
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Smart Inventory System</h3>
+            <p class="project-card-desc">ML-powered demand forecasting and inventory management system reducing stockouts by 40%.</p>
+            <ul class="tech-stack" aria-label="Technologies used">
+              <li class="tech-tag">FastAPI</li>
+              <li class="tech-tag">Scikit-learn</li>
+              <li class="tech-tag">Docker</li>
+              <li class="tech-tag">React</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="project-card reveal" aria-label="Real-time Chat Application project">
+          <div class="project-img-placeholder project-img-6" role="img" aria-label="Chat application screenshot placeholder">
+            💬
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-card-title">Real-Time Chat Platform</h3>
+            <p class="project-card-desc">High-performance messaging platform supporting 10,000+ concurrent connections with end-to-end encryption.</p>
+            <ul class="tech-stack" aria-label="Technologies used">
+              <li class="tech-tag">WebSocket</li>
+              <li class="tech-tag">Node.js</li>
+              <li class="tech-tag">MongoDB</li>
+              <li class="tech-tag">Redis</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+
+      <div style="text-align:center; margin-top:2.5rem;">
+        <a href="projects.html" class="btn btn-outline">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT CTA ===== -->
+  <section class="cta-banner" aria-label="Call to action">
+    <div class="container">
+      <h2>Ready to build something great?</h2>
+      <p>Let's discuss how I can help you scale your product with intelligent, enterprise-grade solutions.</p>
+      <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+    </div>
+  </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <span class="logo-dot" aria-hidden="true"></span>
+            Mohamed Mostafa
+          </a>
+          <p>Full-stack developer specializing in intelligent web applications and scalable data-driven solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="academic.html">Background</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Focus Areas</h4>
+          <ul>
+            <li><a href="services.html">Python Backend</a></li>
+            <li><a href="services.html">Data Engineering</a></li>
+            <li><a href="services.html">Mobile Apps</a></li>
+            <li><a href="services.html">Cloud &amp; DevOps</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Mohamed &amp; Usef. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
