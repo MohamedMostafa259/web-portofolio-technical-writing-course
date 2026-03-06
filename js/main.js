@@ -1,6 +1,5 @@
 /**
  * main.js — Portfolio interactivity
- * Chapter 7 & 10: Instructions and Web Design
  */
 
 /* ---- Navbar: scroll class + mobile toggle ---- */

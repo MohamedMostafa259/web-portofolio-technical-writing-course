@@ -1,6 +1,5 @@
 /* ============================================================
    PORTFOLIO — Dark Mode, Grid Layout, Card-Based Design
-   Chapter 7 & 10: Instructions and Web Design
    ============================================================ */
 
 /* ---------- CSS Custom Properties ---------- */
@@ -839,11 +838,6 @@ section {
   line-height: 1.5;
 }
 
-.footer-course-note {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  font-style: italic;
-}
 
 /* ---------- Page Header Breadcrumb ---------- */
 .breadcrumb {
