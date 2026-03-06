@@ -15,7 +15,6 @@ flowchart TD
     SVC["🛠️ Services\nservices.html"]
     REV["⭐ Reviews\nreviews.html"]
     BG["🎓 Background\nacademic.html"]
-    FC["🗺️ Flowchart\nflowchart.html"]
     CON["📬 Contact\ncontact.html"]
 
     %% Global navigation bar — present on every page
@@ -23,23 +22,17 @@ flowchart TD
     HOME <-->|global nav| SVC
     HOME <-->|global nav| REV
     HOME <-->|global nav| BG
-    HOME <-->|global nav| FC
     HOME <-->|global nav| CON
     PROJ <-->|global nav| SVC
     PROJ <-->|global nav| REV
     PROJ <-->|global nav| BG
-    PROJ <-->|global nav| FC
     PROJ <-->|global nav| CON
     SVC  <-->|global nav| REV
     SVC  <-->|global nav| BG
-    SVC  <-->|global nav| FC
     SVC  <-->|global nav| CON
     REV  <-->|global nav| BG
-    REV  <-->|global nav| FC
     REV  <-->|global nav| CON
-    BG   <-->|global nav| FC
     BG   <-->|global nav| CON
-    FC   <-->|global nav| CON
 
     %% Inline call-to-action links
     HOME  -.->|"CTA: View My Work"| PROJ
@@ -66,6 +59,5 @@ flowchart TD
 | 🛠️ Services | `services.html` | 9 service cards + 4-step process |
 | ⭐ Reviews | `reviews.html` | 6 client testimonials + rating summary |
 | 🎓 Background | `academic.html` | Technical skills grid + B.Sc. education |
-| 🗺️ Flowchart | `flowchart.html` | Interactive site-structure diagram (this flowchart, rendered) |
 | 📬 Contact | `contact.html` | Contact form + FAQ + direct email |
 
